@@ -1,0 +1,51 @@
+work/
+Revolyuciya-prosmotra-videokontenta.pptx
+Презентация_распределенная_система_освещения.pptx
+pikpo_lab1_2026.pdf
+
+# Служебные файлы macOS и Windows
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Временные файлы Word, PowerPoint и редакторов
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Рабочие копии, промежуточные результаты и настройки агента
+/work/
+/tmp/
+/.codex/
+/.agents/
+
+# Методичка и исходные презентации для примера
+/pikpo_lab1_2026.pdf
+/Презентация_распределенная_система_освещения.pptx
+/Revolyuciya-prosmotra-videokontenta.pptx
+
+# Локальные настройки с токенами и паролями
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+*.pem
+
+# Виртуальное окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Логи, локальные данные PostgreSQL и резервные копии
+*.log
+/pgdata/
+/backups/
